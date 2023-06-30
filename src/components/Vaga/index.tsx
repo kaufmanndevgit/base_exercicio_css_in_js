@@ -1,6 +1,7 @@
 import { VagaLink, VagaList, VagaTitulo } from './style'
 
 type Props = {
+  key: number
   titulo: string
   localizacao: string
   nivel: string

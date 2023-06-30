@@ -102,7 +102,7 @@ const ListaVagas = () => {
       <VagaLista>
         {vagasFiltradas.map((vag) => (
           <Vaga
-            Key={vag.id}
+            key={vag.id}
             titulo={vag.titulo}
             localizacao={vag.localizacao}
             nivel={vag.nivel}
